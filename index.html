@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+     <title>Jason T. Cagle - Portfolio</title>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+     <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body style="background-image: url(assets/images/little_pluses.png);">
+
+     
+    <!--********************************-->
+    <!--  Formatting navigational bar   -->
+    <!--********************************-->
+    
+    <nav class="navbar navbar-expand-sm navbar-dark bg-info text-white border-bottom">    <!-- expands when it is a middle-sized monitor-->
+
+     <!--Navbar brand, my name included here-->
+     <div class="navbar-header">
+          <a id="my-name" class="navbar-brand text-white " href="#" >Jason Cagle</a>
+      </div>
+
+     <!--Toggle button, handles mobile screens-->
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#MyMenuHwrk2" aria-controls="MyMenuHwrk2" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+     </button>
+     
+      <div class="collapse navbar-collapse ml-auto" id="MyMenuHwrk2">
+          <!-- Navbar menu-->
+          <ul class="nav navbar-nav ml-auto">
+              <li class="nav-item"><a href="index.html" id="menuoption1" class="nav-link Active text-white border-right">About<span class="sr-only">(current)</span></a></li>
+              <li class="nav-item"><a href="portfolio.html" id="menuoption2" class="nav-link text-white border-right">Portfolio</a></li>
+              <li class="nav-item"><a href="contact_me.html" class="nav-link text-white">Contact</a></li>
+          </ul>
+     </div>  <!--Navbar collapse-->
+
+ </nav>  <!-- Overall nav element-->
+
+    <!--************************************************************************************************-->
+    <!--  Defining the elements for a grid.  Only 1 row required, 3 columns, both at the end empty      -->
+    <!--************************************************************************************************-->
+
+ <div class="container mb-5 mt-3">   
+    <div class="container pt-5 bg-white">
+     <div class="row">   <!---  Row 1 - Only 1 will be defined here-->
+
+          <div class="col">   <!--  Column 1, will be empty-->
+          </div>
+
+          <div class="col-sm-10 text-justify">   <!-- Column 2, will have the title and a picture-->
+              <h2 class="text-info">About Me</h2><hr>
+              <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.facebook.com%2Fworryfreemusic%2F&psig=AOvVaw0tNw2ph6LC6thpTlfD-LOJ&ust=1587782006047000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLjq2IuDgOkCFQAAAAAdAAAAABAE" alt="My picture" width="160px" class="img-responsive float-left mr-3 rounded-circle">
+
+              <p>My name is Jason Cagle.  I am currently a student at UofR Full Stack Development course. I have been a mortgage banker for the past 20 years, and my goal is to transition into web development. I am also a performing musician in and around the Richmond, VA area. I love to continue to learn and with web development and programming the learning never ends which is another reason I am interested in a career in the industry. Feel free to browse my site and feel free to fill out the contact info </p>
+              
+
+          </div>
+
+          <div class="col">  <!--Empty column #3.  No size to force middle column to center-->
+          </div>  
+
+         </div>    <!-- Row 1-->
+    </div>  <!--  Class container-->
+
+</div>
+
+    <!--************************************************************************-->
+    <!-- Formating the footer.  Will make it 'fixed', similar to sticky in CSS  -->
+    <!--************************************************************************-->
+    
+    <footer class="fixed-bottom border-top bg-info text-light d-flex justify-content-center">
+          <p>Copyright (c) - Jason T. Cagle 2019</p>
+     </footer>
+     
+     
+    <!--******************************************************-->
+    <!-- Downloading JQuery to enable menu responsive design  -->
+    <!--******************************************************-->
+
+     
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+     <!--****************************************************************************-->
+     <!-- Setting some values depending on screen width - smaller than large screen  -->
+     <!-- which is the toggle version for this design                                -->
+     <!--****************************************************************************-->
+
+     <script src="assets/js/events.js"></script>  
+
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+/**************************************************************/
+/*   Style file that will modify behavior for Bootstrap       */
+/**************************************************************/
+
+/****************************************************************/
+/*  Hoover effect for pictures in the portfolio page            */
+/*  It does create an elliptical border around it with          */
+/*  info-type text color.                                       */
+/****************************************************************/
+
+.img-responsive.portfolio-pic:hover {
+
+    border: 5px double #17a2b8;
+    /* border-style: double;
+    border-color: #17a2b8; 
+    border-width: 5px; */
+    border-radius: 50%;
+}
+
+/*****************************************************************/
+/*  changing text over image for the portfolio                  */
+/****************************************************************/
+
+.text-over-image {
+    width: 100%;
+    text-align: center;
+    background-color: #17a2b8;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    left: 0%;
+    bottom: 20%;
+}
+
+/****************************************************************/
+/*  And.... why not, adding a little effect on the about-me     */
+/*  page, borders + increase in image size                      */
+/****************************************************************/
+
+.img-responsive.float-left.mr-3.rounded-circle:hover {
+    width: 250px;
+    border: 10px double #17a2b8;
+
+}
